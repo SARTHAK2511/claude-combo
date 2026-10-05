@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sarthak-mods",
+  "description": "Claude Code mods by Sarthak Bhatore.",
+  "owner": { "name": "Sarthak Bhatore", "url": "https://github.com/sarthak2511" },
+  "plugins": [
+    {
+      "name": "combo-meter",
+      "description": "Fighting-game combo meter for Claude Code: every clean tool call is a hit, every error breaks the chain. D to SSS ranks, special moves, pixel-art counter, chiptune effects and an all-time record.",
+      "author": { "name": "Sarthak Bhatore" },
+      "category": "fun",
+      "source": "./"
+    }
+  ]
+}

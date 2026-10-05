@@ -1,0 +1,44 @@
+{
+  "name": "combo-meter",
+  "version": "0.1.0",
+  "description": "Fighting-game combo meter for Claude Code: every clean tool call is a hit, every error breaks the chain. Ranks D to SSS, special moves, and an all-time high score.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Sarthak Bhatore",
+    "url": "https://github.com/sarthak2511"
+  },
+  "keywords": [
+    "claude-code-mod",
+    "claude-code",
+    "claude-code-mods",
+    "game",
+    "combo",
+    "status-line",
+    "statusline",
+    "streak",
+    "arcade",
+    "fun",
+    "hooks"
+  ],
+  "userConfig": {
+    "sound": {
+      "type": "boolean",
+      "title": "Sound effects",
+      "description": "Play the chiptune effects on rank up, specials, breaks and records (macOS plays them; other systems stay silent).",
+      "default": true
+    },
+    "style": {
+      "type": "string",
+      "title": "Band style",
+      "description": "big draws the pixel-art combo counter; compact keeps the band to one line.",
+      "default": "big",
+      "options": [
+        "big",
+        "compact"
+      ]
+    }
+  },
+  "homepage": "https://github.com/sarthak2511/claude-combo",
+  "repository": "https://github.com/sarthak2511/claude-combo",
+  "license": "MIT"
+}
